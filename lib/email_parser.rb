@@ -5,8 +5,8 @@
 
 @@all = []
 class EmailAddressParser 
+  attr_accessor :emails  
   def initialize(emails)
     @emails = emails
-    @@all << self 
   end
 end
